@@ -1,0 +1,61 @@
+# --- Swift / Xcode ---
+#
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.playground
+.build/
+.swiftpm/
+
+# Archivos de configuración de usuario (Ignorar para no pisar settings ajenos)
+#
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+project.xcworkspace/xcshareddata/swiftpm/package.resolved
+*.xccheckout
+*.moved-aside
+*.xcscheme
+*.xsched
+*.plist
+
+# --- macOS System Files ---
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# --- Dependency Managers ---
+#
+# CocoaPods (si llegas a usarlo)
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# --- Fastlane ---
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# --- Logs & Crash Reports ---
+#
+*.log
+*.crash
